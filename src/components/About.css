@@ -1,0 +1,40 @@
+
+  .photo {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+  }
+
+  .photo:hover {
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  }
+
+
+.about-me{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -65%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    color: rgb(47, 52, 54);
+    text-shadow: 2px 2px rgb(227, 235, 255);
+  }
+
+  .about-section {
+      margin: auto;
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      justify-content: center;
+
+  }
+
+  .text {
+    margin-left: 30px;
+    align-self: center;
+  }

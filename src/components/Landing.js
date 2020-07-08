@@ -21,13 +21,12 @@ const Landing = () => {
         }
     }
     `) 
-    console.log(data)
 
     return(
         <div id="#top" className="landing">
             <Img
             fluid={data.image.childImageSharp.fluid} 
-            alt="Single Sunflower"
+            alt="Ocean"
             style={{
                 position: "absolute",
                 left: 0,
