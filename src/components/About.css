@@ -6,6 +6,7 @@
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
     margin-top: -10px;
+    border-radius: 7%;
   }
 
   .photo:hover {
@@ -36,5 +37,5 @@
 
   .text {
     margin-left: 30px;
-    align-self: center;
+    margin-top: -10px;
   }
