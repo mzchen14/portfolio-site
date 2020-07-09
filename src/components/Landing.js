@@ -1,6 +1,8 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import "./Landing.css"
 
 const Landing = () => {
@@ -40,6 +42,13 @@ const Landing = () => {
                 <h1 className="name">Ming Chen</h1>
                 <h2 id="sub">I am a Software Engineer.</h2>
             </div>
+            <div className="icon">
+                <div class="chevron"></div> 
+                <div class="chevron"></div> 
+                <div class="chevron"></div>
+            </div>
+           
+            
         </div>
     )
 }
