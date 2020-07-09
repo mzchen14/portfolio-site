@@ -1,0 +1,73 @@
+
+.single-project {
+  position: relative;
+  overflow: hidden;
+  margin: 30px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+.single-project * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.single-project img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.single-project figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 25px 65px;
+}
+.single-project figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+.single-project h3,
+.single-project p {
+  margin: 0 0 10px;
+} 
+.single-project h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.single-project p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.single-project a {
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(56, 64, 102);
+    margin-top: -10px;
+}
+
+.single-project:hover figcaption,
+.single-project.hover figcaption {
+  top: 65px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
