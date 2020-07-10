@@ -47,10 +47,10 @@ const Landing = () => {
                 <h2 id="sub">I am a Software Engineer.</h2>
             </div>
             <div className="external-links">
-                    <Tippy className="tippy" content="LinkedIn" placement="bottom"><a className="link-icons" href="https://www.linkedin.com/in/mingzchen/"><FontAwesomeIcon icon={faLinkedin}/></a></Tippy>
-                    <Tippy className="tippy" content="GitHub" placement="bottom" ><a className="link-icons" href="https://github.com/mzchen14"><FontAwesomeIcon icon={faGithub}/></a></Tippy>
-                    <Tippy className="tippy" content="Resume" placement="bottom" ><a className="link-icons" href="https://mzchen14.github.io/resume/"><FontAwesomeIcon icon={faFileAlt}/></a></Tippy>
-                    <Tippy className="tippy" content="Contact Me" placement="bottom"><a className="link-icons" href="mailto:mzchen14@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></Tippy>
+                    <Tippy className="tippy" content="LinkedIn" placement="bottom"><a className="link-icons" aria-label="LinkedIn" href="https://www.linkedin.com/in/mingzchen/"><FontAwesomeIcon icon={faLinkedin}/></a></Tippy>
+                    <Tippy className="tippy" content="GitHub" placement="bottom" ><a className="link-icons" aria-label="gitHub" href="https://github.com/mzchen14"><FontAwesomeIcon icon={faGithub}/></a></Tippy>
+                    <Tippy className="tippy" content="Resume" placement="bottom" ><a className="link-icons" aria-label="Resume" href="https://mzchen14.github.io/resume/"><FontAwesomeIcon icon={faFileAlt}/></a></Tippy>
+                    <Tippy className="tippy" content="Contact Me" placement="bottom"><a className="link-icons" aria-label="Email" href="mailto:mzchen14@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></Tippy>
                     
          
             </div>

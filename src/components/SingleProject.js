@@ -12,8 +12,8 @@ const singleProject = (props) => (
                 <h3>{props.header}</h3>
                 <p>{props.summary}</p>
                 <div className="links">
-                <a href={props.link}><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
-                <a href={props.gitHub}><FontAwesomeIcon icon={faGithub} /></a>
+                <a href={props.link} aria-label="external-link"><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+                <a href={props.gitHub} aria-label="gitHub-link"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
                 
             </figcaption>
