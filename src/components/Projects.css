@@ -10,3 +10,7 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.projects h1 {
+    text-decoration: underline;
+}

@@ -6,7 +6,7 @@ import abiliteas from '../images/abiliteas.gif'
 
 const Projects = () => {
     return(
-        <div className="projects">
+        <div id="projects" className="projects">
             <h1>Projects</h1>
         
             <div className="projectContainer">
@@ -21,6 +21,7 @@ const Projects = () => {
                 alt="Abiliteas" 
                 header="Abiliteas" 
                 summary="A fictitious e-commerce website selling magical teas with superpowers. Created using: JS, React, Node.js, Express.js and more." 
+                link="http://graceshopperlamchops.herokuapp.com/"
                 gitHub="https://github.com/team-lambchops/abiliteas"
                 />
             </div>
