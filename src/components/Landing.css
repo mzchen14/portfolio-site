@@ -50,6 +50,23 @@
     }
   }
 
+.external-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 75%;
+}
+
+.link-icons {
+  font-size: 40px;
+  color: white;
+  margin: 0 -30%;
+}
+.link-icons:hover {
+  color: rgb(209, 146, 64);
+}
+
 .icon {
   color: white;
   position: absolute;
@@ -57,12 +74,13 @@
   margin-bottom: 100px;
   bottom: 0;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -16.5px;
   width: 100px;
   z-index: 1;
 }
 
 .chevron {
+  margin: auto;
   position: absolute;
   width: 28px;
   height: 8px;
@@ -70,6 +88,7 @@
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
+
 
 .chevron:first-child {
   animation: move 3s ease-out 1s infinite;
@@ -123,4 +142,8 @@
   to {
     opacity: 1;
   }
+}
+
+.tippy {
+  background-color: rgb(30, 55, 92);
 }

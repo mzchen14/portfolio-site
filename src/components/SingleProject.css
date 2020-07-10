@@ -60,6 +60,9 @@
     color: rgb(56, 64, 102);
     margin-top: -10px;
 }
+.single-project a:hover {
+    color: rgb(209, 146, 64);
+}
 
 .single-project:hover figcaption,
 .single-project.hover figcaption {
