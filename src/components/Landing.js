@@ -43,7 +43,7 @@ const Landing = () => {
             }}
             />
             <div className="center">
-                <h1 className="name">Ming Chen</h1>
+                <h1 className="name" aria-hidden>Ming Chen</h1>
                 <h2 id="sub">I am a Software Engineer.</h2>
             </div>
             <div className="external-links">
