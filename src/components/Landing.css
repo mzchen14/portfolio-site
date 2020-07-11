@@ -1,9 +1,13 @@
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-:root, .landing {
-    width: 100%;
+:root, 
+
+.landing {
+    width: 100vw;
     height: 100vh;
     font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    position: relative;
   }
   
   .center {
@@ -15,11 +19,29 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    opacity: 100%;
-    
   }
+
+  .name {
+    font-size: 70px;
+    font-weight: 900;
+  }
+  
 #sub {
     font-size: 3vw;
+}
+.overlay {
+  background: #337ab7;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
 }
 
 /* .name {
