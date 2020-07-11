@@ -1,7 +1,10 @@
 import React from 'react'
+import './Contact.css'
 
 export default () => (
-    <div id="contact">
+    <div id="form">
+        <h1>Get in touch with me!</h1>
+        <p>Want to chat or get in touch? Email me at <a className="email" href="mailto:mzchen14@gmail.com">mzchen14@gmail.com</a> or leave a message below!</p>
         <form 
         name="contact" 
         method="post"
@@ -12,18 +15,18 @@ export default () => (
             <input type="hidden" name="form-name" value="contact" />
 
             <div className="input">
-                <label htmlFor="name"> Your Name: </label>
-                <input name="name" placeholder="Your Name" type="text"/>
+                <input name="name" placeholder="NAME" type="text"/>
             </div>
             <div className="input">
-                <label htmlFor="email"> Your Email:</label>
-                <input name="email" placeholder="email@email.com" type="text"/>
+                <input name="email" placeholder="YOUR E-MAIL" type="text"/>
             </div>
             <div className="input">
-                <label htmlFor="message"> Message </label>
-                <textarea name="message"/>
+                <textarea name="message" placeholder="MESSAGE"/>
             </div>
-            <button>Send</button>
+            
+            <div className="input">
+                <input id="submit" type="submit" value="Submit"/>
+            </div>
         </form>
     </div>
 )
