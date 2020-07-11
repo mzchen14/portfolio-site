@@ -32,10 +32,10 @@ const NavBar = () => {
                    fluid={logo}
                    alt="logo"
                    ></Img></Scrollchor>
-               <Scrollchor to="#about" className="nav-item"><a>About Me</a></Scrollchor>
-               <Scrollchor to="#tech" className="nav-item"><a>Technologies</a></Scrollchor>
-               <Scrollchor to="#projects" className="nav-item"><a>Projects</a></Scrollchor>
-               <Scrollchor to="#contact" className="nav-item"><a>Contact Me</a></Scrollchor>
+               <Scrollchor to="#about" className="nav-item">About Me</Scrollchor>
+               <Scrollchor to="#tech" className="nav-item">Technologies</Scrollchor>
+               <Scrollchor to="#projects" className="nav-item">Projects</Scrollchor>
+               <Scrollchor to="#contact" className="nav-item">Contact Me</Scrollchor>
                <a className="nav-item" href="https://mzchen14.github.io/resume/" aria-label="resume" >Resume</a>
             </nav>
         </div>
