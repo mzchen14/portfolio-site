@@ -16,11 +16,6 @@ const Landing = () => {
         image: file(relativePath: {eq: "ocean.jpg" }) {
             id
             childImageSharp {
-                fixed(
-                    width: 400
-                ) {
-                    ...GatsbyImageSharpFixed
-                }
                 fluid {
                     ...GatsbyImageSharpFluid
                 }
@@ -42,7 +37,6 @@ const Landing = () => {
                 height: "100%",
             }}
             />
-             <div className="overlay" />
             <div className="center">
                 <h1 className="name">Ming Chen</h1>
                 <h2 id="sub">I am a Software Engineer.</h2>
