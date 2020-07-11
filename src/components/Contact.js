@@ -3,7 +3,7 @@ import "./Contact.css"
 
 export default () => (
     <div id="contact">
-        <form name="contact" className="form" method="post" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="input">
                 <label htmlFor="name">Name</label>
                 <input name="name" placeholder="Your Name" type="text"/>
