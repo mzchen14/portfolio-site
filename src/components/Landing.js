@@ -30,7 +30,7 @@ const Landing = () => {
     `) 
 
     return(
-        <div id="#top" className="landing">
+        <div id="top" className="landing">
             <Img
             fluid={data.image.childImageSharp.fluid} 
             alt="Ocean"
@@ -50,7 +50,7 @@ const Landing = () => {
                     <Tippy className="tippy" content="LinkedIn" placement="bottom"><a className="link-icons" aria-label="LinkedIn" href="https://www.linkedin.com/in/mingzchen/"><FontAwesomeIcon icon={faLinkedin}/></a></Tippy>
                     <Tippy className="tippy" content="GitHub" placement="bottom" ><a className="link-icons" aria-label="gitHub" href="https://github.com/mzchen14"><FontAwesomeIcon icon={faGithub}/></a></Tippy>
                     <Tippy className="tippy" content="Resume" placement="bottom" ><a className="link-icons" aria-label="Resume" href="https://mzchen14.github.io/resume/"><FontAwesomeIcon icon={faFileAlt}/></a></Tippy>
-                    <Tippy className="tippy" content="Contact Me" placement="bottom"><a className="link-icons" aria-label="Email" href="mailto:mzchen14@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></Tippy>
+                    <Tippy className="tippy" content="Contact Me" placement="bottom"><a className="link-icons" aria-label="mail" href="mailto:mzchen14@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></Tippy>
                     
          
             </div>
@@ -59,7 +59,6 @@ const Landing = () => {
                 <div class="chevron"></div> 
                 <div class="chevron"></div>
             </div></Scrollchor>
-           
             
         </div>
     )

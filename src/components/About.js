@@ -22,7 +22,7 @@ const About = () => {
     }
     `)
     return (
-    <div id="about" className='about-section'>
+    <div className='about-section'>
          <div className="profile-image">
             <h1 className="about-me">About Me</h1>
             <Img
@@ -31,7 +31,7 @@ const About = () => {
             alt="Profile Image"
             />
         </div>
-        <div className='text'>
+        <div id="about" className='text'>
             <h3>My journey...</h3>
             <p>
             Hello! I am a software engineer based in New York City. I graduated from SUNY Stony Brook with a bachelors in English Literature.
