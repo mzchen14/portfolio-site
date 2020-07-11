@@ -31,7 +31,7 @@ const Landing = () => {
 
     return(
         <div id="top" className="landing">
-            <Img
+            {/* <Img
             fluid={data.image.childImageSharp.fluid} 
             alt="Ocean"
             style={{
@@ -41,9 +41,9 @@ const Landing = () => {
                 width: "100%",
                 height: "100%",
             }}
-            />
+            /> */}
             <div className="center">
-                <h1 className="name" aria-hidden>Ming Chen</h1>
+                <h1 className="name">Ming Chen</h1>
                 <h2 id="sub">I am a Software Engineer.</h2>
             </div>
             <div className="external-links">

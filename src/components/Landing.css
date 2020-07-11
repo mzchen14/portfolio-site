@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-:root,
 
-.landing {
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+:root, .landing {
     width: 100%;
     height: 100vh;
     font-family: "Source Sans Pro", sans-serif;
@@ -46,7 +45,7 @@
   }
   @keyframes glow {
     40% {
-      text-shadow: 0 0 8px #fff;
+      text-shadow: 0 0 8px black;
     }
   }
 
