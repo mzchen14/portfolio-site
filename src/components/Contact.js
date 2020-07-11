@@ -2,7 +2,7 @@ import React from 'react'
 import "./Contact.css"
 
 export default () => (
-    <div id="contact-form">
+    <div id="contact">
         <form className="form" name="contact" data-netlify="true" data-netlify-honeyput="bot-field">
             <div className="input">
                 <label htmlFor="name">Name</label>
