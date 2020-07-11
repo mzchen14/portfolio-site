@@ -8,9 +8,9 @@ export default () => (
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         >
-        <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />        
+            <input name="name" placeholder="Your Name" type="text"/>
             <button>Send</button>
         </form>
     </div>
