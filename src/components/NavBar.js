@@ -2,7 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
 import Scrollchor from 'react-scrollchor';
-import "./Navbar.css"
+import "./NavBar.css"
 const NavBar = () => {
     const data = useStaticQuery(graphql `
     query logo {
