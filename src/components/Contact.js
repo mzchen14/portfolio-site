@@ -6,6 +6,7 @@ export default () => (
         <h1>Get in touch with me!</h1>
         <p>Want to chat or get in touch? Email me at <a className="email" href="mailto:mzchen14@gmail.com">mzchen14@gmail.com</a> or leave a message below!</p>
         <form 
+        className="form-box"
         name="contact" 
         method="post"
         data-netlify="true"

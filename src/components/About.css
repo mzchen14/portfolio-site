@@ -45,7 +45,7 @@
     .about-me{
       position: absolute;
       z-index: 1;
-      transform: translate(150%, -50%);
+      transform: translate(100%, -50%);
     }
     .about-section {
       flex-direction: column;
