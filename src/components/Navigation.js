@@ -30,7 +30,7 @@ const Navigation = () => {
     `)
     const logo = data.image.childImageSharp.fluid
     return (
-        <div>
+        <div className="container-fluid">
             <Navbar className="background-color" light expand="md" fixed={"top"}>
             <NavbarBrand>
                 <Scrollchor to="#top" className="nav-item">
@@ -51,6 +51,9 @@ const Navigation = () => {
                     </NavItem>
                     <NavItem onClick={toggle}>
                         <Scrollchor to="#tech" animate={{offset: -170}} className="nav-item">Technologies</Scrollchor>
+                    </NavItem>
+                    <NavItem onClick={toggle}>
+                        <Scrollchor to="#projects" className="nav-item">Projects</Scrollchor>
                     </NavItem>
                     <NavItem onClick={toggle}>
                         <Scrollchor to="#form" className="nav-item">Contact Me</Scrollchor>
