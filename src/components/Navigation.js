@@ -1,8 +1,8 @@
 import React, {useState} from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
-import Scrollchor from 'react-scrollchor';
-import './Navigation.css'
+import Scrollchor from "react-scrollchor";
+import "./Navigation.css"
 import {
     Collapse,
     Navbar,
@@ -30,7 +30,7 @@ const Navigation = () => {
     `)
     const logo = data.image.childImageSharp.fluid
     return (
-        <div className="container-fluid">
+        <div>
             <Navbar className="background-color" light expand="md" fixed={"top"}>
             <NavbarBrand>
                 <Scrollchor to="#top" className="nav-item">
@@ -47,7 +47,7 @@ const Navigation = () => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem onClick={toggle}>
-                        <Scrollchor to="#about" animate={{offset: -150}} id="test" className="nav-item">About Me</Scrollchor>
+                        <Scrollchor to="#about" animate={{offset: -150}} className="nav-item">About Me</Scrollchor>
                     </NavItem>
                     <NavItem onClick={toggle}>
                         <Scrollchor to="#tech" animate={{offset: -170}} className="nav-item">Technologies</Scrollchor>

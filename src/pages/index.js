@@ -1,12 +1,13 @@
 import React from "react"
-import Landing from '../components/Landing'
-import About from '../components/About'
-import Projects from '../components/Projects'
+import Landing from "../components/Landing"
+import About from "../components/About"
+import Projects from "../components/Projects"
 import Technologies from "../components/Technologies"
-import Contact from '../components/Contact'
+import Contact from "../components/Contact"
 import Navigation from "../components/Navigation"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './index.css'
+import Footer from "../components/Footer"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./index.css"
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <Technologies />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }

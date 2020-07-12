@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
-import './About.css'
+import "./About.css"
 
 const About = () => {
     const data = useStaticQuery(graphql `
@@ -17,7 +17,7 @@ const About = () => {
     }
     `)
     return (
-    <div id="about" className='about-section'>
+    <div id="about" className="about-section">
          <div className="profile-image">
             <h1 className="about-me">About Me</h1>
             <Img
@@ -26,18 +26,19 @@ const About = () => {
             alt="Profile Image"
             />
         </div>
-        <div className='text'>
+        <div className="text">
             <h3>My journey...</h3>
             <p>
-            Hello! I am a software engineer based in New York City. I graduated from SUNY Stony Brook with a bachelors in English Literature.
-            Just a year ago, I was working as an elementary school teacher as well as a freelance digital illustrator. </p>
+            Hi I'm Ming, a software engineer based in New York City. 
+            After graduating from SUNY Stony Brook with a bachelor's degree in English Literature, 
+            I became a lead teacher at an elementary school and worked as freelance digital illustrator. </p>
             <p>Wanting to combine my love for creativity and problem solving, 
-            I began to explore and grow my passion for software development and ended up attending the Grace Hopper program at Fullstack Academy. </p> 
-            <p>To this day, I believe it was one of the best decisions I've made. I was able to challenge myself in ways I never imagined and came out even more immersed in programming.</p>
-            <p>Now as a developer, I hope to use my skills to contribute to applications that benefit the lives of others. :)</p>
+                I dove into software development and realized my passion for programming. 
+                I attended the Grace Hopper program at Fullstack Academy to turn my passion into my profession.</p>
+            <p>Now as a developer, I hope to use my skills to contribute to applications that benefit the lives of others. </p>
             <h3>When I'm not coding...</h3>
             <p>
-            In my free time, I enjoy traveling, digital painting, listening to true crime podcasts, playing video games, reading novels, and trying new foods!
+            In my free time, I enjoy digital painting, listening to true crime podcasts, playing video games, reading novels, and trying new foods.
             </p>
         </div>
     </div>)
