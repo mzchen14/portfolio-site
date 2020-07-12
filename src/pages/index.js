@@ -4,11 +4,13 @@ import About from '../components/About'
 import Projects from '../components/Projects'
 import Technologies from "../components/Technologies"
 import Contact from '../components/Contact'
-import NavBar from '../components/NavBar'
+import Navigation from "../components/Navigation"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <Navigation />
       <Landing />
       <About />
       <Technologies />

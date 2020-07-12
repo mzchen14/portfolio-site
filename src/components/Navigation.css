@@ -1,0 +1,22 @@
+
+.navbar { 
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+.background-color {
+    background-color: rgb(219, 171, 127) !important;
+}
+
+.nav-item {
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-item:hover {
+    color:rgb(104, 95, 82) !important;
+}
+
+.logo {
+    width: 45px;
+}

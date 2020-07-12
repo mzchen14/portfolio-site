@@ -25,7 +25,7 @@ export default () => (
             </div>
             
             <div className="input">
-                <input id="submit" type="submit" value="Submit"/>
+                <input id="submit" type="submit" value="Send"/>
             </div>
         </form>
     </div>

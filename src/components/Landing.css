@@ -3,9 +3,6 @@ html, body {
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-:root, 
-
 .landing {
     width: 100vw;
     height: 100vh;
@@ -65,7 +62,7 @@ html, body {
 }
 
 .link-icons {
-  font-size: 40px;
+  font-size: 3rem;
   color: white;
   margin: 0 -30%;
 }
@@ -153,4 +150,20 @@ html, body {
 
 .tippy {
   background-color: rgb(30, 55, 92);
+}
+
+@media all and (max-width: 768px) {
+  .name {
+    font-size: 50px;
+  }
+  #sub {
+    font-size: 5vw;
+  }
+  .external-links {
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+  .link-icons {
+    font-size: 2rem;
+  }
 }
