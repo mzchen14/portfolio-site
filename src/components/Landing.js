@@ -1,12 +1,12 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons"
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import Scrollchor from 'react-scrollchor';
-import Tippy from '@tippyjs/react'
-import 'tippy.js/dist/tippy.css'
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import Scrollchor from "react-scrollchor";
+import Tippy from "@tippyjs/react"
+import "tippy.js/dist/tippy.css"
 import "./Landing.css"
 
 
@@ -49,7 +49,7 @@ const Landing = () => {
                     
          
             </div>
-            <Scrollchor to="#about"><div className="icon">
+            <Scrollchor to="#about" animate={{offset: -150}}><div className="icon">
                 <div class="chevron"></div> 
                 <div class="chevron"></div> 
                 <div class="chevron"></div>

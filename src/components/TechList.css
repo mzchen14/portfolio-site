@@ -10,9 +10,9 @@
     margin: 20px;
 }
 
-li {
-    margin: 5px;
-    margin-left: 10px;
+.list li {
+    text-align: center;
+    list-style-type: none;
 }
 
 .items {

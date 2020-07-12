@@ -1,6 +1,7 @@
 .projects {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -22,7 +23,3 @@
         align-items: center;
     }
 }
-
-
- 
- 

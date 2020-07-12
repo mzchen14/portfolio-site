@@ -4,6 +4,7 @@
     position: relative;
     width: 470px;
     margin: auto;
+    padding-bottom: 50px;
   }
 
   #form h1{
@@ -86,10 +87,10 @@
   
 @media all and (max-width: 600px) {
   #form {
-    max-width: 75%;
+    max-width: 80%;
   }
   #form input, #form textarea, #form #submit {
-    max-width: 75%;
+    max-width: 80%;
   }
 
   .form-box {
