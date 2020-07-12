@@ -62,7 +62,7 @@
   }
   
   #form #submit {
-    width: 502px;
+    width: 470px;
     padding: 0;
     margin: -5px 0px 0px 0px;
     font-size: 0.875em;
@@ -80,3 +80,10 @@
   #form p {
       text-align: center;
   }
+
+  
+@media all and (max-width: 1024px) {
+  #form {
+    padding: 15px;
+  }
+}

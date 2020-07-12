@@ -18,3 +18,21 @@ li {
 .items {
     align-items: center;
 }
+
+@media screen and (min-width: 360px) {
+    .list h3 {
+        font-size: 1rem;
+    }
+    .list li {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .list h3 {
+      font-size: 1.2rem;
+    }
+    .list li {
+        font-size: 1rem;
+    }
+}

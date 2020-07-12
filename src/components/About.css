@@ -1,7 +1,7 @@
 
   .photo {
-    width: 250px;
-    height: 350px;
+    width: 17em;
+    height: 25em;
     object-fit: cover;
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -38,3 +38,20 @@
     margin-top: -50px;
   }
   
+  @media all and (max-width: 768px) {
+    .photo {
+      margin: auto;
+    }
+    .about-me{
+      position: absolute;
+      z-index: 1;
+      transform: translate(150%, -50%);
+    }
+    .about-section {
+      flex-direction: column;
+    }
+    .text {
+      margin-top: 20px;
+      padding: 25px;
+    }
+  }
