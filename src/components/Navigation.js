@@ -44,7 +44,7 @@ const Navigation = () => {
 
             <NavbarToggler onClick={toggle}></NavbarToggler>
 
-            <Collapse isOpen={!isOpen} navbar>
+            <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem onClick={toggle}>
                         <Scrollchor to="#about" animate={{offset: -150}} id="test" className="nav-item">About Me</Scrollchor>
