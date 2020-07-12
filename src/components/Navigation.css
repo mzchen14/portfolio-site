@@ -2,7 +2,6 @@
 .navbar { 
     font-size: 16px;
     font-weight: 500;
-    padding: 10px;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     width: 100%;
 }
@@ -10,8 +9,11 @@
     background-color: rgb(219, 171, 127) !important;
 }
 
+.navbar li {
+    margin: 6px;
+}
+
 .nav-item {
-    margin: 5px;
     color: white !important;
     text-decoration: none !important;
 }
