@@ -31,7 +31,7 @@ const About = () => {
             <p>
             Hi I'm Ming, a software engineer based in New York City. 
             After graduating from SUNY Stony Brook with a bachelor's degree in English Literature, 
-            I became a lead teacher at an elementary school and worked as freelance digital illustrator. </p>
+            I became a lead teacher at an elementary school and worked as a freelance digital illustrator. </p>
             <p>Wanting to combine my love for creativity and problem solving, 
                 I dove into software development and realized my passion for programming. 
                 I attended the Grace Hopper program at Fullstack Academy to turn my passion into my profession.</p>
